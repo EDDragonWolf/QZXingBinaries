@@ -7,7 +7,7 @@ In our repository all binaries build from this [commit](https://github.com/ftyli
 
 | Title             | Version     |
 | ----------------  | ----------- |
-| Qt Creator        | 4.8.0       |
+| Qt Creator        | (macOS - 4.8.0) (Windows - 4.8.1) |
 | Qt                | 5.12.1      |
 
 **For building on Windows were used:**
@@ -15,9 +15,9 @@ In our repository all binaries build from this [commit](https://github.com/ftyli
 * MinGW x64
 
 **For building on Android were used:**
-* JDK 1.8.0_162
-* SDK 26.0.1
-* NDK 10.4.0
+* JDK 1.8.0_192
+* SDK 26.1.1
+* NDK 18.1.5063045
 
 **For building on iOS and macOS were used:**
 *  Apple LLVM version 10.0.0 (clang-1000.11.45.5)
