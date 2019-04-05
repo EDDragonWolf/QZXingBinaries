@@ -1,7 +1,7 @@
 # QZXingBinaries
 Binaries for QZXing Library (https://github.com/ftylitak/qzxing)
 
-In our repository all binaries build from this [commit](https://github.com/ftylitak/qzxing/commit/d61f2ac9821a1f52655092c588c498ca8db1f2c9).
+### In our repository all binaries build from this [commit](https://github.com/ftylitak/qzxing/commit/d61f2ac9821a1f52655092c588c498ca8db1f2c9) (commit hash d61f2ac9821a1f52655092c588c498ca8db1f2c9)
 
 **For building on Windows were used:**
 * msvc2017
@@ -11,7 +11,7 @@ In our repository all binaries build from this [commit](https://github.com/ftyli
 **For building on Android were used:**
 * JDK 1.8.0_162
 * SDK 26.0.1
-* NDK 10.4.0
+* NDK 19.4.0
 
 **For building on iOS and macOS were used:**
 * Apple LLVM version 9.0.0 (clang-900.0.38)
