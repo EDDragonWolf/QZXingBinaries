@@ -1,28 +1,23 @@
 # QZXingBinaries
 Binaries for QZXing Library (https://github.com/ftylitak/qzxing)
 
-In our repository all binaries build from this [commit](https://github.com/ftylitak/qzxing/commit/d61f2ac9821a1f52655092c588c498ca8db1f2c9).
-
-**Binaries build environment configuration:**
-
-| Title             | Version                            |
-| ----------------  | ---------------------------------- |
-| Qt Creator        | (Mac OS - 4.8.0) (Windows - 4.8.1) |
-| Qt                | 5.12.1                             |
+### In our repository all binaries build from this [commit](https://github.com/ftylitak/qzxing/commit/d61f2ac9821a1f52655092c588c498ca8db1f2c9) (commit hash d61f2ac9821a1f52655092c588c498ca8db1f2c9)
 
 **For building on Windows were used:**
-* msvc2017 x64
-* MinGW x64
+* msvc2017
+* msvc2015 for x86 binaries
+* MinGW x32
 
 **For building on Android were used:**
-* JDK - 1.8.0_192
-* SDK - 26.1.1
-* NDK - 18.1.5063045
-* platforms API - android-28
-* compiler - Clang
+* JDK 1.8.0_162
+* SDK 26.0.1
+* NDK 19.4.0
 
 **For building on iOS and macOS were used:**
-* Apple LLVM version 10.0.0 (clang-1000.11.45.5)
+* Apple LLVM version 9.0.0 (clang-900.0.38)
+
+**For building on Linux (Ubuntu 16.04) were used:**
+* gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.9)
 
 ## How to build QZXing statically
 Clone sources from [original repository](https://github.com/ftylitak/qzxing.git).
@@ -56,7 +51,7 @@ symbian {
 
 After build you can find your static binaries in shadow build directory.
 
-**For Windows you'll get:**
+**For windows you'll get:**
 
 on debug  `QZXing.lib` and `QZXing2.pdb`
 
