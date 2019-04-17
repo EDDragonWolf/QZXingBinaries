@@ -8,7 +8,7 @@ Binaries for QZXing Library (https://github.com/ftylitak/qzxing)
 | Title             | Version                            |
 | ----------------  | ---------------------------------- |
 | Qt Creator        | (Mac OS - 4.8.0) (Windows - 4.8.1) |
-| Qt                | 5.12.1                             |
+| Qt                | 5.12.2                             |
 
 **For building on Windows were used:**
 * msvc2017
