@@ -11,10 +11,6 @@ Binaries for QZXing Library (https://github.com/ftylitak/qzxing)
 | Qt                | 5.12.2                             |
 
 **For building on Windows were used:**
-* msvc2017
-* msvc2015 for x86 binaries
-* MinGW x32
-
 * msvc2017 x64
 * MinGW x64/x86
 * msvc2015 for x86 binaries
