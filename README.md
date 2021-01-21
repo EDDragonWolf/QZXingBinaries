@@ -3,7 +3,7 @@ Binaries for QZXing Library (https://github.com/ftylitak/qzxing)
 
 ### In our repository all binaries build from this [commit](https://github.com/ftylitak/qzxing/commit/d61f2ac9821a1f52655092c588c498ca8db1f2c9) (commit hash d61f2ac9821a1f52655092c588c498ca8db1f2c9)
 
-**Binaries build environment configuration:**
+**Except Android binaries was used build environment configuration:**
 
 | Title             | Version                            |
 | ----------------  | ---------------------------------- |
@@ -19,18 +19,25 @@ Binaries for QZXing Library (https://github.com/ftylitak/qzxing)
 * MinGW x64/x86
 * msvc2015 for x86 binaries
 
-**For building on Android were used:**
-* JDK 1.8.0_162
-* SDK 26.0.1
-* NDK 19.4.0
-* platforms API - android-28
-* compiler - Clang
-
 **For building on iOS and macOS were used:**
 * Apple LLVM version 10.0.0 (clang-1000.11.45.5)
 
 **For building on Linux (Ubuntu 18.04) were used:**
 * gcc version 7.3.0 (Ubuntu 7.3.0-27ubuntu1~18.04)
+
+### Android
+**Binaries build environment configuration:**
+| Title             | Version           |
+| ----------------  | ----------------- |
+| Qt Creator        | Windows -  4.14.0 |
+| Qt                | 5.12.10           |
+
+**For building were used:**
+* JDK 1.8.0_161
+* SDK 26.0.1
+* NDK 21.3.652
+* platforms API - android-30
+* compiler - Clang
 
 ## How to build QZXing statically
 Clone sources from [original repository](https://github.com/ftylitak/qzxing.git).
